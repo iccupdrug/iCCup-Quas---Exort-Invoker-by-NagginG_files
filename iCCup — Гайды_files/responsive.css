@@ -1,0 +1,578 @@
+
+
+@media (max-width: 991.98px) {
+ 
+  html {
+    width: 100%;
+  }
+
+  .full-page {
+    max-width: 92%;
+  
+   
+  }
+.b-body {
+  width: 100%;
+}
+.header {
+  max-width: 100%;
+ }
+/*db-nav start */
+.full-page a.db-nav {
+width: 22%;
+
+font-size: 1rem;
+
+}
+
+
+.db-nav {
+display: inline-block; /* Выставляем элементы в одну линию */
+vertical-align: top; /* Выравнивание элементов по вертикали */
+margin-right: 10px; /* Добавляем промежуток между элементами (при необходимости) */
+}
+
+
+.db-nav span {
+font-size: 1rem;
+
+
+
+
+}
+
+/*db-nav end */
+
+.dota-description-mechanics-dota-old {
+width: 100%;
+display: inline-block;
+
+
+}
+.dota-description-mechanics {
+display:inline-block;
+
+width: 40%;
+} 
+
+
+  .guides-header {
+max-width: 100%;
+}
+.database-guides {
+width: 100%;
+}
+
+
+.guides-list li {
+max-width: 100%;
+}
+.g-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  }
+  .g-nav li a {
+    padding: 7px 15px;
+  }  
+
+}
+
+@media (max-width: 767.98px) {
+
+ /*db-nav start */
+ .full-page a.db-nav {
+  width: 90%;
+  height: 80%;
+  font-size: 1rem;
+
+}
+.full-page a.db-nav {
+  margin: 0;
+}
+
+.db-main-nav {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center; /* Центрирование элементов по горизонтали */
+  align-items: center; /* Центрирование элементов по вертикали */
+  margin: 0; /* Удаление внешних отступов контейнера */
+}
+
+
+.db-nav span {
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0%;
+  font-size: 0.8rem;
+}
+.db-nav p {
+  width: 100%;
+  font-size: 0.6rem;
+  margin-top: -10%;
+}
+/*db-nav end */
+
+  .dota-description-mechanics {
+    display:inline-block;
+    
+    width: 40%;
+   }
+
+   .dota-ver {
+    margin-right: 10%;
+    font-size: 1rem;
+   }
+
+ /*Guids header start */
+ .guides-header {
+  padding: 0%;
+  padding-top: 2%;
+display: flex;
+  padding-left: 2%;
+}
+.guides-header a {
+  font-size: 0.6rem;
+ margin-bottom: 10%;
+
+
+}
+
+.g-select {
+  width: 30%;
+ margin-right: 5%;
+  
+}
+.g-select select {
+  margin-top: 2%;
+width: 100%;
+  font-size: 0.6rem;
+  font-weight: 500;
+  color: #505050;
+  border: 1px solid #cbcbcb;
+  border-radius: 5px;
+  padding-right: 10%;
+ 
+}
+
+
+.guides-header .g-title h4 {
+  font-size: 1.2rem;
+
+}
+.guides-header {
+
+position: relative;
+height: 90px;
+}
+.main {
+  height: auto;
+}
+.g-nav {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+align-items: center;
+height: 50px;
+}
+
+.g-nav li:not(:first-child) a {
+padding: 10px; /* Уменьшенный отступ для второго и третьего элементов списка */
+}
+
+.g-select {
+margin-left: auto;
+}
+
+  .guide-rating {
+    position: absolute;
+    bottom: 5%;
+    right: 1%;
+    width: 30%;
+  height: 40%;
+  display: flex;
+  justify-content: flex-end;
+ 
+  }
+  .guide-rating a {
+    width: 24px;
+    height: 24px;
+    margin-left: 3%;
+  }
+  .guide-rating .g-rating {
+    font-size: 1rem;
+    margin: 0%;
+    margin-right: 10%;
+    height: 24px;
+    margin-top: 6%;
+  
+  }
+  .g-plus{
+    background-size: 100%;
+  }
+  .g-minus{
+    background-size: 100%; 
+   
+  }
+
+/*Guids header end */
+
+
+
+
+/*Guids list start */
+.guides-list li{
+margin-left: -9%;
+ max-height: 3%;
+ display: flex;
+ align-content: center;
+ width: 120%;
+
+ padding-left: 10px;
+ margin-left: -10px;
+ max-height: 50px;
+ 
+ padding-top: 0;
+ padding-bottom: 0;
+}
+  .g-title span {
+    width: 50%;
+    font-size: 15px;
+  }
+.g-title {
+max-width: 100%;
+height: 50px;
+}
+.g-title h4 {
+margin-top: -1%;
+}
+
+.g-title a  {
+  margin-top: -10%;
+  font-size: 15px;
+}
+.g-title span {
+height: 10px;
+padding-bottom: 30px;
+padding: 0%;
+width: 80%;
+margin-top: -1%;
+
+}
+
+.guides-list {
+  padding-left: -30px;
+}
+
+.g-rating {
+  font-size: 15px;
+
+}
+
+.guides-list img {
+margin-right: 10px;
+margin-top: 10px;
+height: 35px;
+width: 35px;
+}
+/*Guids list end */
+}
+
+  @media (max-width: 575.98px) {
+     /*db-nav start */
+    .full-page a.db-nav {
+      width: 90%;
+      height: 90%;
+      font-size: 1rem;
+    
+    }
+    .full-page a.db-nav {
+      margin: 0;
+    }
+   
+    .db-main-nav {
+      display: grid;
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center; /* Центрирование элементов по горизонтали */
+      align-items: center; /* Центрирование элементов по вертикали */
+      margin: 0; /* Удаление внешних отступов контейнера */
+    }
+  
+ 
+    .db-nav span {
+      flex-wrap: wrap;
+     align-content: center;
+   
+    
+    }
+    .db-nav p {
+      width: 100%;
+     padding-bottom: 2%;
+      
+    }
+/*db-nav end */
+.dota-description-mechanics-dota-old {
+  width: 100%;
+ align-content: center;
+ display: inline-block;
+ }
+.dota-ver {
+  font-size: 0.7rem;
+}
+
+.dota-description-mechanics {
+  margin-top: 3%;
+  font-size: 0.6rem;
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+ }
+ .dota-description-mechanics img {
+  width: 10%;
+  height: 10%;
+ }
+
+
+ /*Guids header start */
+
+.guides-header a {
+  font-size: 0.5rem;
+  margin: 0%;
+  padding: 0%;
+ margin-bottom: 9%;
+
+}
+
+.g-select {
+  width: 30%;
+  margin-right: 2%;
+
+}
+.g-select select {
+  margin-top: 2%;
+width: 100%;
+  font-size: 0.6rem;
+  font-weight: 500;
+  color: #505050;
+  border: 1px solid #cbcbcb;
+  border-radius: 5px;
+  padding-left: 1px;
+ 
+}
+
+.guides-header img {
+  height: 44px;
+  width: 44px;
+}
+.guides-header .g-title h4 {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+.database-guides .guides-header {
+  position: relative;
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-items: center;
+
+}
+
+.database-guides .guides-header h4 {
+  display: flex;
+ 
+ font-size: 1.1rem;
+}
+
+.g-nav {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+align-items: center;
+}
+
+.g-nav li:not(:first-child) a {
+padding: 5px; /* Уменьшенный отступ для второго и третьего элементов списка */
+}
+
+.g-select {
+margin-left: auto;
+}
+.guide-rating {
+position: absolute;
+  right: 5%;
+  bottom: 2%;
+
+margin-bottom: 1%;
+}
+
+
+.guides-heade .g-title  {
+  height: none;
+  font-size: 1rem;
+}
+
+.guide-rating {
+  width: 40%;
+  padding-top: 3%;
+}
+.guide-rating a {
+  width: 24px;
+  height: 24px;
+  margin-left: 3%;
+}
+.guide-rating .g-rating {
+  font-size: 1rem;
+  margin: 0%;
+  margin-right: 10%;
+  height: 24px;
+  margin-bottom: 5%;
+
+}
+.g-plus{
+  background-size: 100%;
+}
+.g-minus{
+  background-size: 100%; 
+ 
+}
+
+.guides-header .g-title {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10%;
+  padding-left: 3%;
+  position: absolute;
+  top: -6px;
+  left: 50px;
+  height: 30px;
+  width: 80%;
+  
+  }
+
+.database-guides .guides-header img {
+  position: absolute;
+  top: 10px;
+}
+/*Guids header end */
+/*guides-block  start*/
+.b-body  {
+  display: block;
+}
+
+.g-skills {
+  width: 25%;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+
+.s-list {
+display: flex;
+  flex-direction: column;
+}
+.g-items h5 {
+ display: flex;
+ flex-direction: start;
+  width: 80%;
+  padding-left: 1%;
+}
+.g-items:before {
+       content: "";
+    display: block;
+    position: absolute;
+    top: 31px;
+    left: 6px;
+    width: 0px;
+    height: 58px;
+    background-color: #e7e7e7;
+}
+.s-list .skill {
+  margin-top: 2px;
+
+  margin-right: 2px;
+}
+.g-skills:last-child {
+  width: 61px;
+}
+.g-skills:last-child .skill  {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+
+}
+.g-skills:last-child .s-image {
+  margin-left: 5px;
+}
+
+.i-list .item img{
+width: 32px;
+height: 32px;
+flex-wrap: nowrap;
+}
+.g-skills h5 {
+  font-size: 0.8rem;
+  width: 80%;
+}
+.g-skills:last-child h5 {
+  padding-right: 5%;
+  margin-right: 10%;
+}
+#b-body2  {
+  display: flex;
+  padding-right: 2%;
+  
+
+}
+/*guides-block  end*/
+/*Guids list start */
+.g-title {
+  padding-top: 4%;
+  }
+.guides-list li {
+  display: flex;
+}
+.g-title span {
+ 
+  font-size: 0.6rem;
+  height: 15px;
+  display: inline-block;
+ 
+}
+.g-title h4 {
+  font-size: 1px;
+
+}
+.g-title h4 a {
+  font-size: 0.6rem;
+}
+.g-title a  {
+ 
+  font-size: 0.6rem;
+}
+
+.g-rating {
+  font-size: 0.6rem;
+
+}
+
+/*Guids list end */
+.b-body h3 {
+  display: grid;
+  text-wrap: balance;
+}
+.b-body p {
+  text-wrap: balance;
+}
+
+  }
+
+
+
